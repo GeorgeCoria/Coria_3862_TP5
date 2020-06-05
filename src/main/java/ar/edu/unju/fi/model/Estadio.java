@@ -2,6 +2,9 @@ package ar.edu.unju.fi.model;
 
 import java.time.LocalDate;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Estadio {
 	private String nombre;
 	private LocalDate fechaFundacion;
