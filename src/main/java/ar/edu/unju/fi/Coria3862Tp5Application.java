@@ -7,8 +7,8 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import ar.ed.unju.fi.service.IUsuarioService;
 import ar.edu.unju.fi.model.Usuario;
+import ar.edu.unju.fi.service.IUsuarioService;
 
 @SpringBootApplication
 public class Coria3862Tp5Application implements CommandLineRunner{

@@ -1,4 +1,4 @@
-package ar.ed.unju.fi.repository;
+package ar.edu.unju.fi.repository;
 
 import ar.edu.unju.fi.model.Usuario;
 /**

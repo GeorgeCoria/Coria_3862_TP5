@@ -1,11 +1,10 @@
-package ar.ed.unju.fi.service;
+package ar.edu.unju.fi.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Repository;
+import org.springframework.stereotype.Service;
 
-
-import ar.ed.unju.fi.repository.IUsuario;
 import ar.edu.unju.fi.model.Usuario;
+import ar.edu.unju.fi.repository.IUsuario;
 /**
  * Clase que implementa los metodos de la Interfaz IUsuarioService
  * Esta clase esta definida como un bean de Spring, dedicada a 
@@ -14,7 +13,7 @@ import ar.edu.unju.fi.model.Usuario;
  * @author George
  *
  */
-@Repository
+@Service
 public class UsuarioServiceImp implements IUsuarioService{
 	
 	/**
