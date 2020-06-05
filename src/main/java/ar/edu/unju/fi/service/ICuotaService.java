@@ -1,11 +1,11 @@
-package ar.edu.unju.fi.repository;
+package ar.edu.unju.fi.service;
 
 import ar.edu.unju.fi.model.Cuota;
 
-public interface ICuota {
-	
+public interface ICuotaService {
+
 	public void guardar();
-	public Cuota mostrar();
 	public void eliminar();
+	public Cuota mostrar();
 	public Cuota modificar();
 }
