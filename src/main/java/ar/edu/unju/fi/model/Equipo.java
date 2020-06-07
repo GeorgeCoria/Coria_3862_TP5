@@ -6,6 +6,11 @@ import org.springframework.stereotype.Component;
 //este anotacion marcara a la clase como un bean de Spring
 @Component
 public class Equipo {
+	
+	/**
+	 * Atributo nombre, este almacenara el nombre
+	 * de un equipo
+	 */
 	private String nombre;
 	/**
 	 * Atributo objeto de tipo Estadio, para lograr la inyecion de dependencias
@@ -14,6 +19,8 @@ public class Equipo {
 	 */
 	@Autowired
 	private Estadio estadio;
+	
+	
 	
 	//------- Constructores -------------
 	
