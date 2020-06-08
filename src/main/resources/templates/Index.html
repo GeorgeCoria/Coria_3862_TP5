@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeLeaf.org">
+<head>
+	<title>Liga de Futbol</title>
+	<link rel="stylesheet" type="text/css" href="../static/css/estilo.css">
+</head>
+<body>
+	<div id="contGeneral">
+		<header >
+			<p>Liga de Futbol Profesional</p>	
+		</header>
+		<nav>
+			<ul>
+				<li><a href="Index.html">Home</a></li>
+				<li><a href="fixture.html">Fixture y resultados</a></li>
+				<li><a href="equipos.html">Equipos</a></li>
+			</ul>
+			<div id="welcome">
+				<h4 th:text=" 'Bienvenido !! ' + ${usuario}"></h4>
+			</div>
+		</nav>
+		<div class="cuerpo">
+				<section>
+				<h1>Noticias</h1>
+				<figure>
+					<img src="../static/Image/fig1.jpg" alt="figura 1">
+					<figcaption>
+						12-03-20
+						<br>
+						<br>
+						Nueva noticia de los partidos suspendidos por la cuarentena
+					</figcaption>
+				</figure>
+				<figure>
+					<img src="../static/Image/fig2.jpg" alt="figura 2">
+					<figcaption>
+						13-03-20
+						<br>
+						<br>
+						Repeticion de la transmision en vivo de la final de la copa anual de profesional
+					</figcaption>
+				</figure>
+				<figure>
+					<img src="../static/Image/fig3.jpg" alt="figura3">
+					<figcaption>
+						20-03-20
+						<br>
+						<br>
+						Reprogramacion de sorteo para las proximas fechas
+					</figcaption>
+				</figure>
+				<p class="info">El interés que despierta el mundial es muy alto entre los argentinos, con más de un 90% de los entrevistados admitiendo su ansiedad por la llegada de ese momento.
+
+				Sin embargo, tal ansiedad no significa que sean igual de optimistas al referirse al desempeño de la selección.
+
+				De acuerdo a la investigación, sólo un 20% de estos hinchas fieles del equipo que dirige Diego Maradona opinan que será Argentina una de las que juegue la final.
+
+				De ellos, un 18% asegura que se coronará campeón de la Copa. Se trata principalmente de hombres menores de 34 años, quienes eran muy chicos aún cuando el paí­s ganó su última Copa de fútbol en México '86.
+
+				Por otro lado, la gran mayorí­a de los entrevistados, un 70% aproximadamente, cree que Argentina quedará afuera del Mundial en cuartos de final o alguna etapa previa. En este sentido, los mayores de 49 años y las mujeres son los más pesimistas.Cerca del triunfo
+
+				En relación a los posibles ganadores, la mayorí­a sostiene que Brasil será el campeón, enfrentándose en la final con España. 
+			</p>
+			</section>
+			<aside>
+				<h2>Auspiciantes</h2>
+				<img src="../static/Image/adidas.jpg" alt="Image">
+				<img src="../static/Image/garena.jpg" alt="Image">
+				<img src="../static/Image/intel.jpg" alt="Image">
+				<img src="../static/Image/macro.jpg" alt="Image">
+			</aside>
+		</div>
+		
+		<footer style="text-align: center">
+			<small>Av.Pedro Ortiz de Zarate Nº 455	- Tel 3884254678<br>
+			Copyright (C) Microsoft Corporation. Todos los derechos reservados.</small>
+		</footer>
+	</div>
+
+</body>
+</html>

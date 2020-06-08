@@ -1,0 +1,176 @@
+#contGeneral{
+	background:linear-gradient( to right , #626AD5, #CE3C3C, #E27330, #EDEF46, #2AD2DD);	
+	top: 0;
+	left: 0;	
+	border: 2px solid blue;
+	box-sizing: border-box;
+}
+header {
+	box-sizing: border-box;
+	background-image: url(../Image/fondo.jpg);
+	background-position: center;/*posiciona la imagen en el centro*/
+	height: auto;
+	background-size: cover;/* Cambiar el tamaño de la imagen de fondo para cubrir todo el contenedor */
+	border: 2px solid black;
+	text-align: center;
+	margin-bottom: -16px;
+	
+}
+/* se usan atributos iguales a dos elementos*/
+header p, div.cuerpo section h1, aside h2{
+	background-color: rgba(213, 137, 29, 0.5);
+	color: white;
+	font-family: fantasy;
+	font-size: 45px;
+
+}
+/*linea de cabezera*/
+header p{
+	margin-top: 3em;
+	width: 40%;
+	margin-left: 30%;
+	border-radius: 15px;
+	box-shadow: 2px 4px 20px;
+}
+div.cuerpo section h1,aside h2{
+	margin-top: 0;
+	padding-left: 0.4em;
+}
+/* fondo del nav y pie de pagina*/
+nav,footer{	
+	background-image: linear-gradient(to top left, #87837C 0%, #413838 100%);
+	box-sizing: border-box;
+
+}
+nav{
+	height: 60px;	
+	padding-top: 0;
+	padding-bottom: 6px;
+}
+ul{
+	margin-left: 1%;
+}
+
+ul li{
+	display: table-cell;
+	padding: 15px;
+	cursor: pointer;
+	box-sizing: border-box;
+	
+}
+ul li:hover{
+	border:2px solid red;
+	background-color: rgba(230,0,0,0.5);
+	box-shadow: 2px 4px 20px;
+	border-radius: 5px;
+	transition: 0.7s;
+}
+ul li:hover a{
+	color: white;
+}
+ul li a {
+	font-size: 25px;
+	text-decoration: none;
+	color: orange;
+	font-weight: bold;
+}
+.cuerpo{
+	display: table;
+	width: 100%;
+	box-sizing: border-box;
+}
+section{
+	margin-top: 0;
+	width: 69%;
+	box-sizing: border-box;
+	display: table-cell;
+}
+aside{
+	width: 29%;
+	
+	box-sizing: border-box;
+	margin-right: 0;
+	margin-top: 0;
+	display: table-cell;
+}
+div.cuerpo section figure{
+	float: left;
+	width: 27%;
+	box-sizing: border-box;
+	padding: 1em;
+	margin-right: 0;
+}
+section figure img{
+	width: 200px;
+	height: 200px;
+	margin-bottom: 2em;
+}
+footer{
+	padding: 1em;
+}
+aside img{
+	width: 250px;
+	margin-left: 18%;
+}
+/*fondo de las tarjetas y auspiciantes*/
+section figure, aside{
+	background: rgba(47,41,40,0.2);
+}
+.info{
+	clear: both;
+	padding-left:10%;
+	padding-right: 10%;
+	text-align: justify;
+	font-size: 20px;
+}
+/*seccion de fixture*/
+.grid-fixture{
+	background-color: rgba(132,128,127,0.7);
+	display: grid;
+	grid-template-columns:auto auto auto auto auto auto auto;
+	padding: 5px;
+	width: 70%;
+	align-content: center;
+	margin-left: 15%;
+}
+.grid-fixture > div {
+	background-color: rgba(212,138,31,0.8);
+	padding-top: 20px;
+}
+.item-equipo1{
+	grid-column-start: 2;
+	grid-column-end: 5;
+	font-size: 20px;
+}
+.item-equipo2{
+	grid-column-start: 5;
+	grid-column-end: 8;
+	font-size: 20px;
+}
+/*seccion de ventana equipos*/
+.cont-target{
+	width: 100%;
+	height: 380px;
+	margin-top:5px;
+	background:rgba(113,102,102,0.7);
+	box-sizing: border-box;
+}
+.cont-target img{
+	display: inline-block;
+	width: 33%;
+	padding-bottom: 80px;
+}
+.cont-target article{
+	width: 64%;
+	height: 382px;
+	overflow: scroll;
+	padding-top: 0;
+	display: inline-block;
+	padding-top: 5px;
+	padding-right: 15px;
+	margin-left: 10px;
+	text-align: justify;
+	margin-top: 0;
+	box-sizing: border-box;
+	
+}
